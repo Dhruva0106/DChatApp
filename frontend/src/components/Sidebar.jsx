@@ -6,6 +6,7 @@ import {userDummyData} from '../assets/assets'
 const Sidebar = ({selectedUser, setSelectedUser}) => {
     const navigate = useNavigate();
   return (
+    <div className="border-r border-white/20 bg-black/10">
     <div className={`bg-[#8185B2]/10 h-full p=5 rounded-r-x1 overflow-y-scroll text-white1 ${selectedUser ? "max-md:hidden": ''}`}>
         <div className='p-5'>
             <div className='flex justify-between items-center'>
@@ -44,6 +45,7 @@ const Sidebar = ({selectedUser, setSelectedUser}) => {
                 ))}
         </div>
 
+    </div>
     </div>
   )
 }
