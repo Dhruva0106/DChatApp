@@ -15,7 +15,7 @@ const ChatContainer = ({selectedUser, setSelectedUser}) => {
   return selectedUser ?(
     <div className='h-full flex flex-col backdrop-blur-lg min-h-0'>
         {/* ---------------- header ---------------------- */}
-        <div className='flex items-center gap-3 py-3 px-4 border-b border-white-10 shrink-0'>
+        <div className='flex items-center gap-3 py-3 px-4 border-b border-white/40 shrink-0'>
           <img src={assets.profile_martin} alt="" className='w-8 rounded-full' />
           <p className='flex-1 text-lg text-white flex items-center gap-2'>
               Martin Johnson
